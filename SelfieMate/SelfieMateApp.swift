@@ -1,17 +1,11 @@
-//
-//  SelfieMateApp.swift
-//  SelfieMate
-//
-//  Created by Julie Sok on 1/9/2025.
-//
-
+// SelfieMateApp.swift
 import SwiftUI
 
 @main
 struct SelfieMateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()   // make sure this exists below
         }
     }
 }
